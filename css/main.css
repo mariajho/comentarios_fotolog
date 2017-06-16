@@ -57,7 +57,11 @@ footer{
   padding: 10px;
 }
 
-
+button{
+  margin-left: 26%;
+  border: 2px solid blue;
+  background-color: #c2edec;
+}
 
 /* Estilos comentarios */
 
