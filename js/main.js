@@ -1,10 +1,14 @@
 /*aquí va tu código*/
-
-
-function guardarDatos(){
-	localStorage.nombre = document.getElementById("nombre").value;
-	localStorage.comentarios = document.getElementById("comentarios")
+function init(){
+	var button = document.getElementById("boton");
+	button.addEventListener("click", guardar);
 }
 
+function guardarDatos(){
+	localStorage.nombre = document.getElementById("clave").value;
+	localStorage.comentarios = document.getElementById("valor").value;
+}
 
-
+function recuperarDatos(){
+	if((localStor))
+}

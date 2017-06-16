@@ -57,11 +57,23 @@ footer{
   padding: 10px;
 }
 
-button{
+#boton{
   margin-left: 26%;
-  border: 2px solid blue;
-  background-color: #c2edec;
+  border: 1px solid blue;
+  background: transparent;
+  color: black;
 }
 
+#boton2{
+    border: 1px solid blue;
+    background: transparent;
+    color: black;
+    margin-left: 10px;
+    
+
+
+
+    
+}
 /* Estilos comentarios */
 
